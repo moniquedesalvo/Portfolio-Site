@@ -1,0 +1,30 @@
+html,body {
+	background-color: #cde1d1;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+#cards {
+	width: 90%;
+	max-width: 1400px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#cards img {
+	height: 300px;
+}
+
+.card {
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.card img {
+	border: 2px solid #4b4a4a;
+	border-radius: 8px;
+}
