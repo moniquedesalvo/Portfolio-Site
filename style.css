@@ -73,6 +73,20 @@ footer a:hover {
 	border-radius: 8px;
 }
 
+.title {
+	display: flex;
+}
+
+.title .fa {
+	padding-right: 10px;
+	padding-top: 5px;
+	color: #584869;
+}
+
+.title .fa:hover {
+	color: #4f5c5b;
+}
+
 footer {
 	height: 100px;
 	border-top: 2px solid #584869;
