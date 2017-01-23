@@ -21,6 +21,15 @@ header h1,h2 {
 	color: #4f5c5b;
 }
 
+footer a {
+	text-decoration: none;
+	color: #4f5c5b;
+}
+
+footer a:hover {
+	color: #584869;
+}
+
 .site {
 	display: flex;
   	min-height: 100vh;
@@ -65,12 +74,31 @@ header h1,h2 {
 }
 
 footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	height: 100px;
 	border-top: 2px solid #584869;
 	background-color: #b2cfce;
 	color: #4f5c5b;
-
 }
+
+#footer-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+#footer-icons a {
+	padding: 5px;
+	padding-top: 15px;
+}
+
+#email {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	margin-top: 0px;
+}
+
