@@ -41,8 +41,8 @@ footer a:hover {
 }
 
 #main {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #cards {
@@ -73,6 +73,10 @@ footer a:hover {
 	border-radius: 8px;
 }
 
+.card p {
+	margin-top: 5px;
+}
+
 .title {
 	display: flex;
 	justify-content: space-between;
@@ -98,6 +102,7 @@ footer a:hover {
 .tech-used {
 	font-style: italic;
 	font-weight: bold;
+	margin-bottom: 5px;
 }
 
 footer {
@@ -129,7 +134,7 @@ footer p {
 	margin-top: 0px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	#cards {
 		width: 100%;
 	}
@@ -137,5 +142,9 @@ footer p {
 	#cards img {
 		width: 100%;
 		height: auto;
+	}
+
+	.card {
+		padding-top: 10px;
 	}
 }
